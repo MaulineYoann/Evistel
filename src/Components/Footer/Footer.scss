@@ -1,0 +1,25 @@
+footer {
+    height: 8vh;
+    background-color: #030303;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    .icons_contain {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .icons {
+            text-decoration: none;
+            list-style-type: none;
+            font-size: 2rem;
+            color: #fff;
+            &:hover {
+                transition: 300ms ease-in-out;
+              
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.carrousel_bots {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  .image {
+
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .bots_name {
+
+      color: #f1f1f1f1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+
+    }
+  }
+}
+
+.directory_bots {
+
+  text-decoration: none;
+  border-radius: 20px;
+
+  .image {
+    
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+    .bots_name {
+
+      border-radius: 5px;
+      margin: 10px auto;
+      width: 70%;
+      padding: 8px;
+      color: #f1f1f1;
+      font-weight: bold;
+      font-size: 2rem;
+      height: 200px;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+  }
+}

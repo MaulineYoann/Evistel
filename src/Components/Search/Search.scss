@@ -1,0 +1,41 @@
+.search {
+    position: fixed;
+    top: 0;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-color: #46494c;
+   // animation: searchAnim 2s ease-in-out 400ms 0 backwards running;
+    transition: 400ms;
+    .search_contain {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        label {
+            margin: 5px auto;
+            color: #fff;
+            font-weight: 600;
+        }
+        .search_text {
+            outline: none;
+            height: 40px;
+            width: 100%;
+            border-radius: 20px;
+            font-weight: 700;
+            padding: 10px;
+            border: 3px solid #013a63;
+        }
+    }
+}
+
+@keyframes searchAnim {
+    0% {
+        transform: translateY(-400px);
+    }
+    100% {
+        transform: translateY(400px);
+    }
+}
