@@ -3,7 +3,7 @@ import { BotContext } from "../../Context/botContext";
 import "./Search.scss";
 
 const Search = () => {
-  const { search, searchTerm, setSearchTerm } = useContext(BotContext);
+  const { search, setSearchTerm } = useContext(BotContext);
   const handleTerm = (e) => setSearchTerm(e.target.value);
   const inputEl = useRef(null);
 

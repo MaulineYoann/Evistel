@@ -1,6 +1,5 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext} from "react";
 import { BotContext } from "../../Context/botContext";
-import { Swiper, SwiperSlide } from "swiper/react";
 import Bots from "../Bots/Bots";
 import "./BotsDirectory.scss";
 

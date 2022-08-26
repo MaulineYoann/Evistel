@@ -5,7 +5,6 @@ import Search from "../../Components/Search/Search";
 import evistel from "../../assets/images/Evistel.png";
 import "./Home.scss";
 import BotsDirectory from "../../Components/BotsDirectory/BotsDirectory";
-import { TbSlice } from "react-icons/tb";
 
 const Home = () => {
 
