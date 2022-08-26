@@ -2,11 +2,6 @@ import image1 from '..//assets/images/imgBot/image1.jpg'
 import image2 from '..//assets/images/imgBot/image2.jpg'
 import image3 from '..//assets/images/imgBot/image3.jpg'
 
-const images = [image1, image2, image3];
-const arr = [];
-const algo = images.map(img => arr.push(img));
-
-
 
 export const fakeBot = [
   {

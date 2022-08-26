@@ -9,7 +9,7 @@ const Search = () => {
 
   useEffect(() => {
     search && inputEl.current.focus();
-  }, []);
+  }, [search]);
 
   return (
     <div className="search">

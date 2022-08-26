@@ -13,7 +13,7 @@ const Loader = () => {
 
   return (
     <main className="Loader">
-      <img src={logo} className="loader-img" />
+      <img src={logo} className="loader-img" alt='logo'/>
       <div className="lds-roller">
         <div></div>
         <div></div>

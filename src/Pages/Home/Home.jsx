@@ -9,11 +9,8 @@ import BotsDirectory from "../../Components/BotsDirectory/BotsDirectory";
 const Home = () => {
 
   const { search } = useContext(BotContext);
-  const [errorTerm, setErrorTerm] = useState("");
   const [categories, setCategories] = useState("all");
   const handleCategories = (e) => setCategories(e.target.value);
-
-  const arr = [10, 20];
 
 
   return (
@@ -37,7 +34,6 @@ const Home = () => {
       <div className="home_bots">
         <BotsDirectory categories={categories} />
       </div>
-      <p> {errorTerm} </p>
       {search && <Search className="search" />}
     </main>
   );
