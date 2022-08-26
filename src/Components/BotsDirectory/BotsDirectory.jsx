@@ -25,9 +25,11 @@ const BotsDirectory = ({ categories }) => {
             .map((bots) => (
               <Bots key={bots.id} bots={bots} directory={true} />
             ))}
-        </aside>
+        </aside>    
       );
+      default: console.log(categories)
   }
+ 
 };
 
 export default BotsDirectory;
